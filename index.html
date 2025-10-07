@@ -10,7 +10,9 @@
             darkMode: 'class', // Ini bagian terpenting!
             theme: {
                 extend: {
-                    // Anda bisa menambahkan kustomisasi lain di sini jika perlu
+                    fontFamily: {
+                        'arabic': ['"Scheherazade New"', 'serif']
+                    }
                 }
             }
         }
@@ -18,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -106,6 +109,9 @@
                     <li><a href="#hadist-tarbawi" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">D. Hadist Tarbawi</a></li>
                     <li><a href="#aik" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">E. AIK</a></li>
                     <li><a href="#hafalan-surah" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">F. Hafalan Surah Pendek</a></li>
+                    <li><a href="#bacaan-sholat" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">G. Bacaan Sholat</a></li>
+                    <li><a href="#hadist-pilihan" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">H. Hadist Pilihan</a></li>
+                    <li><a href="#doa-harian" class="nav-link flex items-center p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">I. Kumpulan Doa Harian</a></li>
                 </ul>
             </nav>
         </aside>
@@ -747,6 +753,176 @@
                 <div id="surah-container" class="space-y-4">
                     </div>
             </section>
+            <section id="bacaan-sholat" class="content-section">
+                <div class="flex items-center mb-6 border-b-2 border-green-500 pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.54 5.54L18.46 2.62m0 0a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.54-9.54z" />
+                    </svg>
+                    <h2 class="text-3xl font-bold">F. Bacaan Sholat Muhammadiyah</h2>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">1. Doa Iftitah</h3>
+                        <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">اَللّهُمَّ باَعِدْ بَيْنِى وَبَيْنَ خَطَاياَيَ كَمَا باَعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِاَللّهُمَّ نَقِّنِى مِنَ الْخَطَاياَ كَماَ يُنَقَّى الثَّوْبُ اْلأَبْيَضُ مِنَ الدَّنَسِاَللّهُمَّ اغْسِلْ خَطَاياَيَ باِلْماَءِ وَالثَّلْجِ وَالْبَرَدِ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Allaahumma baa'id bainii wabainaa khotoo yaa ya kamaa baa 'adta bainal masyriqi wal maghrib. Allaahumma naqqinii minal khotoo yaa kamaa yunqqots tsaubul abyadhuu minaddanas. Allaahummaghsil khotoo yaa ya bil maa i wats tsalji walbarod.</p>
+                            <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> “Ya Allah, jauhkanlah antara diriku dan di antara kesalahan-kesalahanku sebagaimana Engkau jauhkan antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahan sebagaimana dibersihkannya kain putih dari kotoran. Ya Allah, cucilah kesalahan-kesalahanku dengan air, salju dan embun.”</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">2. Bacaan Ruku' dan Sujud</h3>
+                        <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">سُبْحَانَكَ اللّهم رَبَّنَا وَبِحَمْدِكَ اللّهم اغْفِرْلِيْ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Subhaanakallaahumma rabbanaa wabihamdika Allaahummagh firlii.</p>
+                            <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> “Maha Suci Engkau, ya Allah. Dan dengan memuji Engkau, ya Allah, aku memohon ampun.”</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">3. Bacaan I'tidal</h3>
+                        <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">رَبَّنَا وَلَكَ الْحَمْدُ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Rabbanaa wa lakal hamd.</p>
+                            <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> “Ya Tuhanku, segala puji itu bagi engkau.”</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">4. Duduk diantara Dua Sujud</h3>
+                         <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">اَللّهُمَ اغْفِرْلِيْ وارْحَمنِيْ وَاجْبُرْنِيْ وَاهْدِنِيْ وَارْزُقْنِيْ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Allaahummaghfirlii warhamnii wajburnii wahdinii warzuqnii.</p>
+                            <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> "Ya Allah, ampunilah aku, belas kasihanilah aku, cukupilah aku, tunjukkilah aku dan berikanlah rezeki kepadaku."</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">5. Tasyahud Awal</h3>
+                         <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">اَلتَّحِيَّاتُ لِلّهِ وَالصَّلَوَاتُ وَالطَّيِّباَتُ. اَلسَّلاَمُ عَلَيْكَ أَيُّهاَ النَّبِيُّوَرَحْمَةُ اللهِ وَبَرَكاَتُهُ. اَلسَّلاَمُ عَلَيْناَ وَعَلَى عِباَدِاللهِ الصَّالِحِيْنَ أَشْهَدُ اَنْ لاَاِلَهَ اِلاَّ اللهِ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Attahiyyaatu lillaahi washsholawaatu waththoyyibaat. Assalaamu 'alaika ayyuhannabiyyu warohmatullaahi wabarokaatuh. Assalaamu'alainaa wa'ala 'ibaadillaahi shshoolihiin. Asyhadu anlaa ilaaha illallaah waasyhadu annamuhammadan 'abduhu warosuuluh.</p>
+                             <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> "Segala kehormatan, kebahagiaan dan kebagusan adalah kepunyaan Allah. Semoga keselamatan bagi Engkau, ya Nabi Muhammad, beserta rahmat dan kebahagiaan Allah. Keselamatan semoga tetap untuk kami seluruh hamba yang shaleh-shaleh. Aku bersaksi bahwa tiada Tuhan melainkan Allah. Dan aku bersaksi bahwa Nabi Muhammad adalah utusan Allah."</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-l-4 hover:border-green-500">
+                        <h3 class="font-bold text-2xl mb-4 text-green-600 dark:text-green-400">6. Shalawat Setelah Tasyahud Akhir</h3>
+                         <div class="border-t pt-4 dark:border-gray-700">
+                            <p dir="rtl" class="text-4xl md:text-5xl text-right font-arabic leading-relaxed text-gray-800 dark:text-gray-200 mb-4">اَللّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ. وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ</p>
+                            <p class="mt-2 text-md italic text-gray-600 dark:text-gray-400">Allahumma sholli 'ala Muhammad wa 'ala aali Muhammad kamaa shollaita 'ala Ibroohim wa 'ala aali Ibrohim, innaka hamidun majiid. Allahumma baarik 'ala Muhammad wa 'ala aali Muhammad kamaa baarokta 'ala Ibrohim wa 'ala aali Ibrohimm innaka hamidun majiid.</p>
+                            <p class="mt-3 text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md"><strong>Artinya:</strong> "Ya Allah, limpahkanlah kemurahan-Mu kepada Muhammad dan keluarganya, sebagaimana Kau telah limpahkan kepada Ibrahim dan keluarganya. Berkahilah Muhammad dan keluarganya, sebagaimana Kau telah berkahi Ibrahim dan keluarganya. Sesungguhnya Engkau yang Maha Terpuji dan Maha Mulia."</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="hadist-pilihan" class="content-section">
+                <div class="flex items-center mb-6 border-b-2 border-indigo-500 pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                    </svg>
+                    <h2 class="text-3xl font-bold">H. Hadist Pilihan (Teknik & Informatika)</h2>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3 text-indigo-600 dark:text-indigo-400">1. Hadist tentang Profesionalisme (Itqan)</h3>
+                        <p dir="rtl" class="text-3xl font-arabic leading-relaxed text-right mb-3">إِنَّ اللهَ يُحِبُّ إِذَا عَمِلَ أَحَدُكُمْ عَمَلاً أَنْ يُتْقِنَهُ</p>
+                        <p class="italic text-gray-600 dark:text-gray-400">"Innallaha yuhibbu idza 'amila ahadukum 'amalan an yutqinahu."</p>
+                        <p class="mt-2"><strong>Artinya:</strong> "Sesungguhnya Allah mencintai seseorang yang apabila bekerja, dia melakukannya secara profesional (itqan)."</p>
+                        <p class="text-sm mt-2 font-semibold text-gray-500">Sumber: HR. Al-Baihaqi</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3 text-indigo-600 dark:text-indigo-400">2. Keutamaan Bekerja dengan Keahlian Tangan</h3>
+                        <p dir="rtl" class="text-3xl font-arabic leading-relaxed text-right mb-3">مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ</p>
+                        <p class="italic text-gray-600 dark:text-gray-400">"Ma akala ahadun tha'aman qatthu khairan min an ya'kula min 'amali yadihi."</p>
+                        <p class="mt-2"><strong>Artinya:</strong> "Tidak ada seseorang yang memakan satu makanan pun yang lebih baik dari makanan hasil usaha tangannya sendiri."</p>
+                        <p class="text-sm mt-2 font-semibold text-gray-500">Sumber: HR. Bukhari</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3 text-indigo-600 dark:text-indigo-400">3. Amanah dalam Informasi (Anti Hoax)</h3>
+                        <p dir="rtl" class="text-3xl font-arabic leading-relaxed text-right mb-3">كَفَى بِالْمَرْءِ كَذِبًا أَنْ يُحَدِّثَ بِكُلِّ مَا سَمِعَ</p>
+                        <p class="italic text-gray-600 dark:text-gray-400">"Kafaa bil mar'i kadziban an yuhadditsa bikulli maa sami'a."</p>
+                        <p class="mt-2"><strong>Artinya:</strong> "Cukuplah seseorang dikatakan berdusta, jika ia menceritakan setiap apa yang ia dengar."</p>
+                        <p class="text-sm mt-2 font-semibold text-gray-500">Sumber: HR. Muslim</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3 text-indigo-600 dark:text-indigo-400">4. Manfaat Ilmu Pengetahuan Jangka Panjang</h3>
+                        <p dir="rtl" class="text-3xl font-arabic leading-relaxed text-right mb-3">إِذَا مَاتَ الْإِنْسَانُ انْقَطَعَ عَنْهُ عَمَلُهُ إِلَّا مِنْ ثَلَاثَةٍ: ...أَوْ عِلْمٍ يُنْتَفَعُ بِهِ...</p>
+                        <p class="italic text-gray-600 dark:text-gray-400">"Idzaa maatal insaanunqatha'a 'anhu 'amaluhu illaa min tsalaatsatin: ...aw 'ilmin yuntafa'u bihi..."</p>
+                        <p class="mt-2"><strong>Artinya:</strong> "Jika seorang manusia meninggal, maka terputuslah darinya amalnya kecuali tiga hal: ...atau ilmu yang bermanfaat..."</p>
+                        <p class="text-sm mt-2 font-semibold text-gray-500">Sumber: HR. Muslim</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3 text-indigo-600 dark:text-indigo-400">5. Larangan Merusak (Termasuk Sistem Digital)</h3>
+                        <p dir="rtl" class="text-3xl font-arabic leading-relaxed text-right mb-3">لاَ ضَرَرَ وَلاَ ضِرَارَ</p>
+                        <p class="italic text-gray-600 dark:text-gray-400">"Laa dharara wa laa dhiraara."</p>
+                        <p class="mt-2"><strong>Artinya:</strong> "Tidak boleh memberikan mudharat (kerusakan) pada diri sendiri maupun orang lain."</p>
+                        <p class="text-sm mt-2 font-semibold text-gray-500">Sumber: HR. Ibnu Majah dan Ahmad</p>
+                    </div>
+                </div>
+            </section>
+            <section id="doa-harian" class="content-section">
+                <div class="flex items-center mb-6 border-b-2 border-rose-500 pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                    </svg>
+                    <h2 class="text-3xl font-bold">I. Kumpulan Doa Harian</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">1. Doa Sebelum Makan</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">اَللَّهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</p>
+                        <p class="text-sm italic mt-1">Allahumma baarik lanaa fiimaa razaqtanaa wa qinaa 'adzaa ban-naar.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">2. Doa Sesudah Makan</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">اَلْحَمْدُ للهِ الَّذِيْ أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ</p>
+                        <p class="text-sm italic mt-1">Alhamdulillahilladzii ath'amanaa wa saqaana wa ja'alanaa minal muslimiin.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">3. Doa Sebelum Tidur</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">بِاسْمِكَ اللَّهُمَّ أَحْيَا وَأَمُوْتُ</p>
+                        <p class="text-sm italic mt-1">Bismikallahumma ahya wa bismika amuut.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">4. Doa Bangun Tidur</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">اَلْحَمْدُ ِللهِ الَّذِى أَحْيَانَا بَعْدَمَا أَمَاتَنَا وَإِلَيْهِ النُّشُوْرُ</p>
+                        <p class="text-sm italic mt-1">Alhamdulillahilladzi ahyaanaa ba'da maa amaatanaa wa ilaihin nusyuur.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">5. Doa Masuk Rumah</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ</p>
+                        <p class="text-sm italic mt-1">Allahumma innii as-aluka khairal mauliji wa khairal makhraji.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">6. Doa Keluar Rumah</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ</p>
+                        <p class="text-sm italic mt-1">Bismillahi tawakkaltu 'alallah, laa haula wa laa quwwata illaa billaah.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">7. Doa Masuk Kamar Mandi</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">اَللَّهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ</p>
+                        <p class="text-sm italic mt-1">Allahumma innii a'uudzubika minal khubutsi wal khabaa-its.</p>
+                    </div>
+                     <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">8. Doa Keluar Kamar Mandi</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">غُفْرَانَكَ</p>
+                        <p class="text-sm italic mt-1">Ghufraanaka.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">9. Doa untuk Kedua Orang Tua</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">رَبِّ اغْفِرْ لِيْ وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِيْ صَغِيْرًا</p>
+                        <p class="text-sm italic mt-1">Rabbighfirlii wa liwaalidayya warhamhumaa kamaa rabbayaanii shaghiiraa.</p>
+                    </div>
+                     <div class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-sm border-l-4 border-rose-400">
+                        <h4 class="font-semibold text-lg text-rose-600 dark:text-rose-400 mb-2">10. Doa Kebaikan Dunia & Akhirat</h4>
+                        <p dir="rtl" class="text-2xl font-arabic text-right">رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</p>
+                        <p class="text-sm italic mt-1">Rabbanaa aatinaa fid-dunyaa hasanatan wa fil-aakhirati hasanatan wa qinaa 'adzaaban-naar.</p>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -1029,4 +1205,4 @@
     }
 </script>
 </body>
-</html>
+    </html>
